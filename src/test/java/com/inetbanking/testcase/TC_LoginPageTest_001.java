@@ -16,6 +16,6 @@ public class TC_LoginPageTest_001 extends BaseClass{
 	logger.info("password is entered");
 	lp.clickSubmit();
 	logger.info("submitted");
-	
+	logger.info("demo");
 }
 }
