@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="inetbanking" duration-ms="38341" started-at="2020-10-28T12:06:48 IST" finished-at="2020-10-28T12:07:27 IST">
+  <suite name="inetbanking" duration-ms="38429" started-at="2020-10-12T12:17:56 IST" finished-at="2020-10-12T12:18:34 IST">
     <groups>
     </groups>
-    <test name="bankingapp Test" duration-ms="38341" started-at="2020-10-28T12:06:48 IST" finished-at="2020-10-28T12:07:27 IST">
+    <test name="bankingapp Test" duration-ms="38429" started-at="2020-10-12T12:17:56 IST" finished-at="2020-10-12T12:18:34 IST">
       <class name="com.inetbanking.testcase.TC_LoginPage_test_ddt">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.inetbanking.testcase.TC_LoginPage_test_ddt@1e6d1014]" name="setUp" is-config="true" duration-ms="7289" started-at="2020-10-28T12:06:49 IST" finished-at="2020-10-28T12:06:56 IST">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.inetbanking.testcase.TC_LoginPage_test_ddt@5f2108b5]" name="setUp" is-config="true" duration-ms="6556" started-at="2020-10-12T12:17:56 IST" finished-at="2020-10-12T12:18:02 IST">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTestDdt(java.lang.String, java.lang.String)[pri:0, instance:com.inetbanking.testcase.TC_LoginPage_test_ddt@1e6d1014]" name="loginTestDdt" duration-ms="12936" started-at="2020-10-28T12:06:58 IST" data-provider="logintest" finished-at="2020-10-28T12:07:11 IST">
+        <test-method status="PASS" signature="loginTestDdt(java.lang.String, java.lang.String)[pri:0, instance:com.inetbanking.testcase.TC_LoginPage_test_ddt@5f2108b5]" name="loginTestDdt" duration-ms="13753" started-at="2020-10-12T12:18:03 IST" data-provider="logintest" finished-at="2020-10-12T12:18:17 IST">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestDdt -->
-        <test-method status="FAIL" signature="loginTestDdt(java.lang.String, java.lang.String)[pri:0, instance:com.inetbanking.testcase.TC_LoginPage_test_ddt@1e6d1014]" name="loginTestDdt" duration-ms="7300" started-at="2020-10-28T12:07:11 IST" data-provider="logintest" finished-at="2020-10-28T12:07:19 IST">
+        <test-method status="FAIL" signature="loginTestDdt(java.lang.String, java.lang.String)[pri:0, instance:com.inetbanking.testcase.TC_LoginPage_test_ddt@5f2108b5]" name="loginTestDdt" duration-ms="8525" started-at="2020-10-12T12:18:17 IST" data-provider="logintest" finished-at="2020-10-12T12:18:25 IST">
           <params>
             <param index="0">
               <value>
@@ -79,16 +79,20 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
 at org.testng.TestNG.runSuites(TestNG.java:1032)
 at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 ]]>
             </full-stacktrace>
           </exception> <!-- junit.framework.AssertionFailedError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestDdt -->
-        <test-method status="FAIL" signature="loginTestDdt(java.lang.String, java.lang.String)[pri:0, instance:com.inetbanking.testcase.TC_LoginPage_test_ddt@1e6d1014]" name="loginTestDdt" duration-ms="7451" started-at="2020-10-28T12:07:19 IST" data-provider="logintest" finished-at="2020-10-28T12:07:26 IST">
+        <test-method status="FAIL" signature="loginTestDdt(java.lang.String, java.lang.String)[pri:0, instance:com.inetbanking.testcase.TC_LoginPage_test_ddt@5f2108b5]" name="loginTestDdt" duration-ms="7860" started-at="2020-10-12T12:18:25 IST" data-provider="logintest" finished-at="2020-10-12T12:18:33 IST">
           <params>
             <param index="0">
               <value>
@@ -133,16 +137,20 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
 at org.testng.TestNG.runSuites(TestNG.java:1032)
 at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 ]]>
             </full-stacktrace>
           </exception> <!-- junit.framework.AssertionFailedError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestDdt -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetbanking.testcase.TC_LoginPage_test_ddt@1e6d1014]" name="tearDown" is-config="true" duration-ms="654" started-at="2020-10-28T12:07:26 IST" finished-at="2020-10-28T12:07:27 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetbanking.testcase.TC_LoginPage_test_ddt@5f2108b5]" name="tearDown" is-config="true" duration-ms="664" started-at="2020-10-12T12:18:33 IST" finished-at="2020-10-12T12:18:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
